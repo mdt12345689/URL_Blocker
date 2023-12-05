@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "URL Blocker",
+  "version": "1.0",
+  "description": "Block specified URLs",
+  "permissions": ["webRequest", "webRequestBlocking", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "images/icons8-do-not-touch-100_48.png"
+    }
+  }
+}

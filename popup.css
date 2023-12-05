@@ -1,0 +1,19 @@
+body {
+  width: 250px;
+  height: 300px;
+  margin: 0;
+  padding: 10px;
+}
+
+textarea {
+  margin-bottom: 10px;
+  height: 80px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  max-height: 150px;
+}
